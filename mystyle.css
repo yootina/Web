@@ -1,0 +1,69 @@
+h3 {
+    color: rgb(18, 18, 249);
+}
+
+p {
+    color: #bc165b;
+}
+
+/* #id 선택자 */
+#two {
+    color: aqua;
+}
+
+/* .class 선택자 */
+.orange {
+    color: rgb(209, 136, 0);
+}
+
+p.center {
+    text-align: center;
+}
+
+p#size {
+    font-size: 50px;
+}
+
+li {
+    color: blueviolet;
+    background-color: #bc165b;
+}
+
+ul.korean > li {
+    color:  green;
+}
+
+.box {
+    /* border: 5px dashed rgb(251, 80, 108); */
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(250, 148, 165);
+
+    margin-top: 10px;
+    margin-left: 5px;
+
+    padding-top: 10px;
+
+    text-align: center
+}
+.font {
+    font-family: Tangerine;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+}
